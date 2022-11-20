@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.form{text-align: center;
+background-color: #6e0037;
+color: white;
+border:3px solid white ;
+border-radius: 33px;
+display:inline-block;
+width: 437px;
+height: 452px;
+margin: 104px 528px;}    
+  
+    .BUTTON{
+        border: 3px solid white;
+        border-radius: 10px;
+        padding: 5px;
+        margin-left:309px ;
+        width: 105px;
+        background-color:#c18303;
+        color: white;
+    }
+    </style>
+</head>
+<body class="form">
+    <div>
+        <h4>GENDER</h4>
+    <H4>MALE: <input type="checkbox" name="mygender"></H4>
+    <H4>FEMAIL: <input type="checkbox" name="mygender"></H4>
+    <H4>OTHERS: <input type="checkbox" name="mygender"></H4>
+    </div>
+    <div>
+   <h4>FIRST NAME:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text"></h4>
+   <div>
+    <h4>LAST NAME:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text"></h4>
+    </div>
+    <div>
+        <h4>EMAIL ADDRESS:&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text"></h4>  
+    </div>    
+    <div>
+        <h4>PHONE NUMBER:&nbsp&nbsp&nbsp&nbsp<input type="text"></h4>
+    </div>
+    <div>
+        <h4>PASSWORD:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text"></h4>
+    </div>
+    
+    <input type="button" value="SUBMIT" class="BUTTON">
+
+    
+</body>
+</html>
