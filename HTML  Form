@@ -28,6 +28,7 @@ margin: 104px 528px;}
     </style>
 </head>
 <body class="form">
+<form action="backend.php">
     <div>
         <h4>GENDER</h4>
     <H4>MALE: <input type="checkbox" name="mygender"></H4>
